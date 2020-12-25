@@ -30,7 +30,7 @@ see [config/config.default.js](config/config.default.js) for more detail.
 
 ## API
 
-### getCredential(options)
+### getCredential([ options ])
 
 | params  |  type   |          desc           |
 | ------- | ------- | ----------------------- |
