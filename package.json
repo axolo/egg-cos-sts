@@ -44,12 +44,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-cos-sts.git"
+    "url": "git+https://github.com/axolo/egg-cos-sts.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/axolo/egg-cos-sts/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-cos-sts#readme",
+  "homepage": "https://github.com/axolo/egg-cos-sts#readme",
   "author": "Yueming Fang",
   "license": "MIT"
 }
