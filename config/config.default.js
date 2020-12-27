@@ -2,7 +2,16 @@
 
 const STS = require('qcloud-cos-sts');
 
-// @see https://github.com/tencentyun/qcloud-cos-sts-sdk
+/**
+ * **COS STS Config**
+ *
+ * ERROR 403: Access Denied, please verify policy
+ *
+ * [Example]{@link https://cloud.tencent.com/document/product/436/9067}
+ * [Access-Control-Allow-Origin]{@link https://cloud.tencent.com/document/product/436/13318}
+ *
+ * @see https://github.com/tencentyun/qcloud-cos-sts-sdk
+ */
 exports.cosSts = {
   default: {
     STS,
@@ -14,7 +23,7 @@ exports.cosSts = {
   //   region: 'REGION',
   //   proxy: '',
   //   durationSeconds: 1800,
-  //   allowPrefix: 'PREFIX',
+  //   allowPrefix: 'PREFIX', // WARNING: overwrite file same key
   //   policy: {
   //     version: '2.0',
   //     statement: [{

@@ -52,4 +52,8 @@ Please open an issue [here](https://github.com/axolo/egg-cos-sts/issues).
 
 [MIT](LICENSE)
 
+## TODO
+
+- Cache Adapter
+
 [SDK]: https://github.com/tencentyun/qcloud-cos-sts-sdk

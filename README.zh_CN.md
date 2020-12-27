@@ -51,4 +51,8 @@ exports.cosSts = {
 
 [MIT](LICENSE)
 
+## TODO
+
+- 缓存与适配器
+
 [SDK]: https://github.com/tencentyun/qcloud-cos-sts-sdk
