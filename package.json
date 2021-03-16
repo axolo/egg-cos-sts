@@ -1,6 +1,6 @@
 {
   "name": "@axolo/egg-cos-sts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Tencent cloud COS STS plugin for Egg.js.",
   "eggPlugin": {
     "name": "cosSts"
@@ -19,11 +19,11 @@
   "devDependencies": {
     "autod": "^3.1.1",
     "autod-egg": "^1.1.0",
-    "egg": "^2.29.1",
+    "egg": "^2.29.3",
     "egg-bin": "^4.15.0",
     "egg-ci": "^1.18.0",
     "egg-mock": "^4.0.1",
-    "eslint": "^7.16.0",
+    "eslint": "^7.22.0",
     "eslint-config-egg": "^9.0.0"
   },
   "engines": {
